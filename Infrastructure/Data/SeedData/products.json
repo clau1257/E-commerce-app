@@ -1,75 +1,75 @@
 [
   {
-    "Name": "Tricou rosu brodat UTA Arad",
-    "Description": "Tricou din bumbac, rosu brodat cu UTA Arad.",
-    "Price": 100,
-    "PictureUrl": "images/products/sb-ang1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Sapca rosie brodata adulti",
-    "Description": "Sapca rosie brodata adulti pentru fanii UTA Arad",
+    "Name": "Tricou retro UTA Arad",
+    "Description": "Tricoul retro în dungi alb-roșu UTA Arad aduce un omagiu istoriei și tradiției echipei de fotbal, fiind un must-have pentru orice suporter fidel. Confecționat din bumbac de înaltă calitate, acest tricou oferă confort și durabilitate, potrivit atât pentru meciuri, cât și pentru purtarea zilnică. Designul clasic cu dungi orizontale și culorile emblematice ale clubului reflectă mândria și pasiunea pentru UTA Arad.",
     "Price": 150,
-    "PictureUrl": "images/products/sb-ang2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
-  },
-  {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/sb-core1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "images/products/sb-core2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "images/products/sb-react1.png",
+    "PictureUrl": "images/products/01_RETRO.jpg",
     "ProductTypeId": 1,
     "ProductBrandId": 4
   },
   {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
+    "Name": "Caciulă roșie brodată adulți",
+    "Description": "Caciulă roșie brodată adulți pentru fanii UTA Arad",
+    "Price": 50,
+    "PictureUrl": "images/products/02_CACIULA.jpg",
     "ProductTypeId": 1,
+    "ProductBrandId": 2
+  },
+  {
+    "Name": "Geacă college UTA Arad",
+    "Description": "Geaca college UTA Arad, în culorile alb și roșu, combină stilul clasic cu pasiunea pentru echipa favorită. Confecționată din materiale de înaltă calitate, această geacă oferă confort termic și durabilitate, ideală pentru orice suporter în sezonul rece. Emblema UTA Arad și designul elegant fac din această geacă un simbol al mândriei și al apartenenței la comunitatea fanilor.",
+    "Price": 200,
+    "PictureUrl": "images/products/IMG_0280.png",
+    "ProductTypeId": 5,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Kit mașină UTA Arad",
+    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Price": 25,
+    "PictureUrl": "images/products/sb-core2.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Carte Csala",
+    "Description": "istorie ",
+    "Price": 50,
+    "PictureUrl": "images/products/01_Carte_Csala.jpg",
+    "ProductTypeId": 6,
     "ProductBrandId": 5
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Name": "Insignă UTA Arad",
+    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Price": 15,
+    "PictureUrl": "images/products/03_INSIGNA.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Magnet frigider echipă UTA Arad",
+    "Description": "Magnetul de frigider UTA Arad, decorat cu sigla oficială a clubului în culorile roșu și alb, este un suvenir perfect pentru orice fan. Realizat din materiale de înaltă calitate, acest magnet adaugă un strop de mândrie și pasiune pentru echipă pe orice suprafață metalică. Compact și durabil, este ideal pentru a ține notițe sau fotografii și pentru a arăta susținerea față de UTA Arad în fiecare zi.",
     "Price": 10,
-    "PictureUrl": "images/products/hat-core1.png",
+    "PictureUrl": "images/products/07_MAGNET.jpg",
     "ProductTypeId": 2,
     "ProductBrandId": 2
   },
   {
-    "Name": "Green React Woolen Hat",
+    "Name": "Carte Gabi Birău",
     "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "images/products/hat-react1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
+    "Price": 40,
+    "PictureUrl": "images/products/03_Gabi_Birau.jpg",
+    "ProductTypeId": 6,
+    "ProductBrandId": 5
   },
   {
-    "Name": "Purple React Woolen Hat",
+    "Name": "Carte Batrana Doamna",
     "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "images/products/hat-react2.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
+    "Price": 40,
+    "PictureUrl": "images/products/04_Batrana_Doamna.jpg",
+    "ProductTypeId": 6,
+    "ProductBrandId": 5
   },
   {
     "Name": "Blue Code Gloves",
@@ -120,27 +120,27 @@
     "ProductBrandId": 2
   },
   {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
+    "Name": "Fular UTA înseamnă Arad",
+    "Description": "Fularul UTA Arad, inscripționat cu mesajul 'UTA înseamnă Arad' , este accesoriul perfect pentru suporterii devotați ai echipei. Confecționat din materiale calde și confortabile, acest fular este ideal pentru zilele reci de meci și pentru a arăta susținerea în orice ocazie. Designul său atrăgător în culorile roșu și alb reflectă mândria și legătura puternică dintre club și orașul Arad.",
+    "Price": 50,
     "PictureUrl": "images/products/boot-core1.png",
     "ProductTypeId": 3,
-    "ProductBrandId": 2
+    "ProductBrandId": 6
   },
   {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
+    "Name": "Magnet frigider UTA Arad",
+    "Description": "Magnetul de frigider UTA Arad, decorat cu sigla oficială a clubului în culorile roșu și alb, este un suvenir perfect pentru orice fan. Realizat din materiale de înaltă calitate, acest magnet adaugă un strop de mândrie și pasiune pentru echipă pe orice suprafață metalică. Compact și durabil, este ideal pentru a ține notițe sau fotografii și pentru a arăta susținerea față de UTA Arad în fiecare zi.",
+    "Price": 10,
+    "PictureUrl": "images/products/08_MAGNET.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
   },
   {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
+    "Name": "Fanion mare UTA Arad",
+    "Description": "Fanionul UTA Arad de mari dimensiuni prezintă sigla oficială a clubului în culorile vibrante roșu și alb, perfect pentru a arăta susținerea față de echipă. Construit din materiale durabile, acesta este ideal pentru a fi expus acasă, la birou sau în locuri publice. Fanionul este un simbol al mândriei și tradiției clubului, reflectând pasiunea și loialitatea suporterilor.",
+    "Price": 50,
     "PictureUrl": "images/products/boot-ang1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
   }
 ]

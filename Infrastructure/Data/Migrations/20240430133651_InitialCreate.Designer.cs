@@ -16,7 +16,7 @@ namespace Infrastructure.Data.Migrations
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
-#pragma warning disable 612, 618
+            #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.18");
 
             modelBuilder.Entity("Core.Entities.Product", b =>
@@ -69,7 +69,6 @@ namespace Infrastructure.Data.Migrations
 
                     b.ToTable("ProductBrands");
                 });
-
             modelBuilder.Entity("Core.Entities.ProductType", b =>
                 {
                     b.Property<int>("Id")
@@ -83,7 +82,6 @@ namespace Infrastructure.Data.Migrations
 
                     b.ToTable("ProductTypes");
                 });
-
             modelBuilder.Entity("Core.Entities.Product", b =>
                 {
                     b.HasOne("Core.Entities.ProductBrand", "ProductBrand")
@@ -97,9 +95,8 @@ namespace Infrastructure.Data.Migrations
                         .HasForeignKey("ProductTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
+                        
                     b.Navigation("ProductBrand");
-
                     b.Navigation("ProductType");
                 });
 #pragma warning restore 612, 618
