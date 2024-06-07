@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "ShortName": "Fan Courier",
+    "Description": "Cel mai rapid timp de livrare.",
+    "DeliveryTime": "1-2 zile lucratoare",
+    "Price": 10
+  },
+  {
+    "Id": 2,
+    "ShortName": "GLS",
+    "Description": "Ajunge in 4 zile lucratoare.",
+    "DeliveryTime": "2-4 zile lucratoare",
+    "Price": 5
+  },
+  {
+    "Id": 3,
+    "ShortName": "Posta Romana",
+    "Description": "Mai incet, dar mai ieftin.",
+    "DeliveryTime": "5-10 zile lucratoare",
+    "Price": 2
+  },
+  {
+    "Id": 4,
+    "ShortName": "GRATIS",
+    "Description": "Durata de livrare mai lunga.",
+    "DeliveryTime": "1-2 saptamani",
+    "Price": 0
+  }
+]
