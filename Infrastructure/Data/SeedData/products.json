@@ -25,15 +25,15 @@
   },
   {
     "Name": "Kit mașină UTA Arad",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Description": "Îmbracă-ți bradul cu un strop de spirit sportiv și dedicare cu acest glob în formă de tricou!",
     "Price": 25,
-    "PictureUrl": "images/products/sb-core2.png",
+    "PictureUrl": "images/products/07_KIT_MASINA.jpg",
     "ProductTypeId": 2,
     "ProductBrandId": 6
   },
   {
     "Name": "Carte Csala",
-    "Description": "istorie ",
+    "Description": "Cartea este ”Csala - Minunea blondă”, despre cel mai important fotbalist al UTA-ei, Iosif Petschovsky. Autorul este Karoly Oroszhegy, cartea ne aduce în lumea fotbalului arădean de acum 70 de ani, o perioadă de invidiat. ",
     "Price": 50,
     "PictureUrl": "images/products/01_Carte_Csala.jpg",
     "ProductTypeId": 6,
@@ -41,14 +41,14 @@
   },
   {
     "Name": "Insignă UTA Arad",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Description": "Le poți colecționa sau le poți purta pe pălărie, tricou sau fular în zilele de meci... dar pot la fel de bine să ofere un plus de eleganță dacă sunt atașate pe gulerul unui sacou sau pe buzunarul de la piept al unei cămăși. Insignele noastre au un farmec aparte!",
     "Price": 15,
     "PictureUrl": "images/products/03_INSIGNA.jpg",
     "ProductTypeId": 2,
     "ProductBrandId": 6
   },
   {
-    "Name": "Magnet frigider echipă UTA Arad",
+    "Name": "Magnet frigider echipa UTA Arad",
     "Description": "Magnetul de frigider UTA Arad, decorat cu sigla oficială a clubului în culorile roșu și alb, este un suvenir perfect pentru orice fan. Realizat din materiale de înaltă calitate, acest magnet adaugă un strop de mândrie și pasiune pentru echipă pe orice suprafață metalică. Compact și durabil, este ideal pentru a ține notițe sau fotografii și pentru a arăta susținerea față de UTA Arad în fiecare zi.",
     "Price": 10,
     "PictureUrl": "images/products/07_MAGNET.jpg",
@@ -57,7 +57,7 @@
   },
   {
     "Name": "Carte Gabi Birău",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Description": "Povestea lui Gabor Biro, dublu campion cu UTA, figură marcantă a echipei care cucerea titlurile din 1969 și 1970. ",
     "Price": 40,
     "PictureUrl": "images/products/03_Gabi_Birau.jpg",
     "ProductTypeId": 6,
@@ -65,65 +65,65 @@
   },
   {
     "Name": "Carte Batrana Doamna",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Description": "Reconstituirea începuturilor echipei UTA și al drumurilor către trofeele cucerite: cele șase titluri de campioană națională și cele două Cupe ale României. ",
     "Price": 40,
     "PictureUrl": "images/products/04_Batrana_Doamna.jpg",
     "ProductTypeId": 6,
     "ProductBrandId": 5
   },
   {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "images/products/glove-code1.png",
+    "Name": "Tricou roșu brodat UTA Arad ",
+    "Description": "Clasice și elegante, tricourile polo cu sigla UTA brodată sunt un accesoriu vestimentar perfect pentru orice suporter.",
+    "Price": 100,
+    "PictureUrl": "images/products/03_TRICOU.jpg",
     "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "images/products/glove-code2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "images/products/glove-react1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "images/products/glove-react2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "images/products/boot-redis1.png",
-    "ProductTypeId": 3,
     "ProductBrandId": 6
   },
   {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "images/products/boot-core2.png",
+    "Name": "Tricou UTA Arad roșu  ",
+    "Description": "Tricou roșu din material bun, imprimat serigrafic (rezistent la spălări), ideal pentru vară.  ",
+    "Price": 60,
+    "PictureUrl": "images/products/IMG_0297.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Tricou oficial UTA Arad",
+    "Description": "Tricou oficial de acasă al echipei de fotbal UTA Arad sezon 2023-2024.",
+    "Price": 270,
+    "PictureUrl": "images/products/4_ALEXANDRU_BENGA.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Hanorac UTA Arad ",
+    "Description": "Hanorac gros, din material bun, imprimat serigrafic (rezistent la spălări), ideal pentru toamnă.",
+    "Price": 100,
+    "PictureUrl": "images/products/02_HANORAC.jpg",
+    "ProductTypeId": 5,
+    "ProductBrandId": 6
+  },
+  {
+    "Name": "Prosop UTA Arad",
+    "Description": "Prosop din frotir din bumbac de înaltă calitate.",
+    "Price": 60,
+    "PictureUrl": "images/products/04_PROSOP.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
+  },
+  {
+    "Name": "Fular Batrana Doamna",
+    "Description": "Fularul UTA Arad, inscripționat cu mesajul 'UTA înseamnă Arad' , este accesoriul perfect pentru suporterii devotați ai echipei. Confecționat din materiale calde și confortabile, acest fular este ideal pentru zilele reci de meci și pentru a arăta susținerea în orice ocazie. Designul său atrăgător în culorile roșu și alb reflectă mândria și legătura puternică dintre club și orașul Arad.",
+    "Price": 50,
+    "PictureUrl": "images/products/06_BATRANA_DOAMNA.jpg",
     "ProductTypeId": 3,
-    "ProductBrandId": 2
+    "ProductBrandId": 6
   },
   {
     "Name": "Fular UTA înseamnă Arad",
     "Description": "Fularul UTA Arad, inscripționat cu mesajul 'UTA înseamnă Arad' , este accesoriul perfect pentru suporterii devotați ai echipei. Confecționat din materiale calde și confortabile, acest fular este ideal pentru zilele reci de meci și pentru a arăta susținerea în orice ocazie. Designul său atrăgător în culorile roșu și alb reflectă mândria și legătura puternică dintre club și orașul Arad.",
     "Price": 50,
-    "PictureUrl": "images/products/boot-core1.png",
+    "PictureUrl": "images/products/07_UTA_INSEAMNA_ARAD.jpg",
     "ProductTypeId": 3,
     "ProductBrandId": 6
   },
@@ -139,7 +139,7 @@
     "Name": "Fanion mare UTA Arad",
     "Description": "Fanionul UTA Arad de mari dimensiuni prezintă sigla oficială a clubului în culorile vibrante roșu și alb, perfect pentru a arăta susținerea față de echipă. Construit din materiale durabile, acesta este ideal pentru a fi expus acasă, la birou sau în locuri publice. Fanionul este un simbol al mândriei și tradiției clubului, reflectând pasiunea și loialitatea suporterilor.",
     "Price": 50,
-    "PictureUrl": "images/products/boot-ang1.png",
+    "PictureUrl": "images/products/06_FANION.jpg",
     "ProductTypeId": 2,
     "ProductBrandId": 6
   }
