@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 import { environment } from 'src/environments/environment';
-import { Basket, IBasketItem, IBasketTotals } from '../shared/models/basket';
+import { Basket, BasketItem, BasketTotals } from '../shared/models/basket';
 import { DeliveryMethod } from '../shared/models/deliveryMethod';
 import { Product } from '../shared/models/product';
 
@@ -13,10 +13,9 @@ export class BasketService {
   baseUrl = environment.apiUrl;
   private basketSource = new BehaviorSubject<Basket | null>(null);
   basketSource$ = this.basketSource.asObservable();
-  private basketTotalSource = new BehaviorSubject<IBasketTotals | null>(null);
+  private basketTotalSource = new BehaviorSubject<BasketTotals | null>(null);
   basketTotalSource$ = this.basketTotalSource.asObservable();
   shipping = 0;
-  basketTotal$: any;
 
   constructor(private http: HttpClient) { }
 
@@ -47,7 +46,7 @@ export class BasketService {
     return this.basketSource.value;
   }
 
-  addItemToBasket(item: Product | IBasketItem, quantity = 1) {
+  addItemToBasket(item: Product | BasketItem, quantity = 1) {
     if (this.isProduct(item)) item = this.mapProductItemToBasketItem(item);
     console.log(item);
     const basket = this.getCurrentBasketValue() ?? this.createBasket();
@@ -83,7 +82,7 @@ export class BasketService {
     localStorage.removeItem('basket_id');
   }
 
-  private addOrUpdateItem(items: IBasketItem[], itemToAdd: IBasketItem, quantity: number): IBasketItem[] {
+  private addOrUpdateItem(items: BasketItem[], itemToAdd: BasketItem, quantity: number): BasketItem[] {
     const item = items.find(x => x.id === itemToAdd.id);
     if (item) item.quantity += quantity;
     else {
@@ -99,7 +98,7 @@ export class BasketService {
     return basket;
   }
 
-  private mapProductItemToBasketItem(item: Product): IBasketItem {
+  private mapProductItemToBasketItem(item: Product): BasketItem {
     return {
       id: item.id,
       productName: item.name,
@@ -119,7 +118,7 @@ export class BasketService {
     this.basketTotalSource.next({shipping: this.shipping, total, subtotal});
   }
 
-  private isProduct(item: Product | IBasketItem): item is Product {
+  private isProduct(item: Product | BasketItem): item is Product {
     return (item as Product).productBrand !== undefined;
   }
 }

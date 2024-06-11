@@ -1,11 +1,6 @@
-import uuid from 'uuid/v4';
+import * as cuid from 'cuid';
 
-export interface IBasket {
-    id: string;
-    items: IBasketItem[];
-}
-
-export interface IBasketItem {
+export interface BasketItem {
     id: number;
     productName: string;
     price: number;
@@ -15,12 +10,17 @@ export interface IBasketItem {
     type: string;
 }
 
-export class Basket implements IBasket {
-    id = uuid();
-    items: IBasketItem[] = [];
+export interface Basket {
+    id: string;
+    items: BasketItem[];
 }
 
-export interface IBasketTotals {
+export class Basket implements Basket {
+    id = cuid();
+    items: BasketItem[] = [];
+}
+
+export interface BasketTotals {
     shipping: number;
     subtotal: number;
     total: number;

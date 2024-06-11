@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IBasketItem } from '../shared/models/basket';
+import { BasketItem } from '../shared/models/basket';
 import { BasketService } from './basket.service';
 
 @Component({
@@ -11,7 +11,7 @@ export class BasketComponent {
 
   constructor(public basketService: BasketService) {}
 
-  incrementQuantity(item: IBasketItem) {
+  incrementQuantity(item: BasketItem) {
     this.basketService.addItemToBasket(item);
   }
 
