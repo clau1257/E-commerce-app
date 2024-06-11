@@ -7,13 +7,13 @@
                         <thead>
                             <tr>
                                 <th scope="col" class="border-0 bg-light">
-                                    <div class="p-2 text-uppercase">Product</div>
+                                    <div class="p-2 text-uppercase">Produs</div>
                                 </th>
                                 <th scope="col" class="border-0 bg-light">
-                                    <div class="py-2 text-uppercase">Price</div>
+                                    <div class="py-2 text-uppercase">Pret</div>
                                 </th>
                                 <th scope="col" class="border-0 bg-light">
-                                    <div class="py-2 text-uppercase">Quantity</div>
+                                    <div class="py-2 text-uppercase">Cantitate</div>
                                 </th>
                                 <th scope="col" class="border-0 bg-light">
                                     <div class="py-2 text-uppercase">Total</div>
@@ -45,15 +45,15 @@
             </div>
         </div>
         <div class="col-4">
-            <div class="bg-light px-4 py-3 text-uppercase font-weight-bold">Order summary</div>
+            <div class="bg-light px-4 py-3 text-uppercase font-weight-bold">Rezumat comanda</div>
             <div class="p-4">
                 <ul class="list-unstyled mb-1">
                     <li class="d-flex justify-content-between py-3 border-bottom">
-                        <strong class="text-muted">Order subtotal</strong>
+                        <strong class="text-muted">Comanda subtotal</strong>
                         <strong>{{order.subtotal | currency}}</strong>
                     </li>
                     <li class="d-flex justify-content-between py-3 border-bottom">
-                        <strong class="text-muted">Shipping and handling</strong>
+                        <strong class="text-muted">Modalitate de livrare</strong>
                         <strong>{{order.shippingPrice | currency}}</strong>
                     </li>
                     <li class="d-flex justify-content-between py-3 border-bottom">
